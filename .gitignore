@@ -1,0 +1,41 @@
+# ====================================================================
+# SENSITIVE DATA & CREDENTIALS (BLINDAGEM 100%)
+# ====================================================================
+# Arquivos de variáveis de ambiente com senhas e usuários do banco
+.env
+*.env
+
+# Arquivos locais do Windows/WSL que revelam o nome do seu usuário ou caminhos do notebook
+.wsl/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# ====================================================================
+# DATA & HEAVY FILES (IMPEDE VAZAMENTO DE ARQUIVOS BRUTOS)
+# ====================================================================
+# Pasta antiga de dados crus (caso ainda exista algum resquício oculto)
+data_raw/
+*.csv
+*.xlsx
+*.json
+*.sql
+.pbix
+
+# ====================================================================
+# PYTHON ENVIRONMENT & CACHE
+# ====================================================================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.conda/
+.venv/
+env/
+venv/
+
+# Pasta real de dados e arquivo binário do modelo de ML
+dataset_CoSupplyChain/
+*.pkl

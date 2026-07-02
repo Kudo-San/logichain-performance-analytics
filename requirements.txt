@@ -1,0 +1,20 @@
+# ==============================================================================
+# DEPENDÊNCIAS DO PROJETO: NEXA PERFORMANCE & RISK
+# Ambiente: Python (Conda / WSL2)
+# ==============================================================================
+
+# Core & Manipulação de Dados
+pandas>=1.4.0
+numpy>=1.22.0
+
+# Banco de Dados & Persistência
+psycopg2-binary>=2.9.3
+sqlalchemy>=1.4.0
+python-dotenv>=0.21
+
+# Machine Learning & Algoritmos
+scikit-learn>=1.0.2
+xgboost>=1.6.0
+
+# Exportação e Serialização de Modelos
+joblib>=1.1.0
