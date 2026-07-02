@@ -274,7 +274,6 @@ git clone https://github.com/seu-usuario/logichain-performance-analytics.git
 ``` bash
 docker-compose up -d
 
-
 Passos seguintes:
 
 a. O banco de dados PostgreSQL subirá automaticamente em localhost:5432.
@@ -282,6 +281,11 @@ a. O banco de dados PostgreSQL subirá automaticamente em localhost:5432.
 b. O container etl_service iniciará em sequência para popular o Data Warehouse.
 
 c. Abra o arquivo .pbix localizado na pasta / powerbi para explorar os dados.
+```
+
+3. Baixe os dados do Kaggle:
+``` bash
+https://www.kaggle.com/datasets/shashwatwork/dataco-smart-supply-chain-for-big-data-analysis
 ```
 
 ---
